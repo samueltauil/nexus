@@ -20,5 +20,5 @@ RUN yum install -y wget \
 
 # switch to nexus
 USER 200
-CMD /opt/sonatype/nexus/bin/nexus run && /usr/local/bin/addjbossrepos.sh
-#CMD ["/opt/sonatype/nexus/bin/nexus", "run"]
+
+CMD ["/opt/sonatype/nexus/bin/nexus", "run"]
