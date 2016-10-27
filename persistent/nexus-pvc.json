@@ -1,0 +1,19 @@
+            {
+               "kind": "PersistentVolumeClaim",
+               "apiVersion": "v1",
+               "metadata": {
+                  "name": "nexus3-claim",
+                  "namespace": "ci"
+               },
+               "spec": {
+                  "accessModes": [
+                     "ReadWriteOnce"
+                  ],
+                  "resources": {
+                     "requests": {
+                        "storage": "5Gi"
+                     }
+                  },
+                  "volumeName": "nexus3-pv"
+               }
+            }
