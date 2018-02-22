@@ -1,5 +1,5 @@
 # https://github.com/sonatype/docker-nexus3
-FROM docker.io/sonatype/nexus3:latest
+FROM docker.io/sonatype/nexus3:3.3.2
 
 USER root
 
